@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import java.util.Random;
 
 @Component
-public class OutrosEmprestimosEmAndamento implements CalculoPonto {
+public class OutrosEmprestimosEmAndamentoImpl implements CalculoPonto {
     @Override
     public int calcular(Proposta proposta) {
         return this.outrosEmprestimosEmAndamento() ? 0 : 80;
