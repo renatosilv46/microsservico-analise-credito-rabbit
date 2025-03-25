@@ -1,0 +1,17 @@
+com\analise\credito\domain\Proposta.class
+com\analise\credito\config\RabbitMQConfig.class
+com\analise\credito\service\strategy\NomeNegativadoImpl.class
+com\analise\credito\exception\StrategyException.class
+com\analise\credito\service\strategy\PontuacaoScoreImpl.class
+com\analise\credito\service\strategy\PrazoPagamentoMenorQueDezAnosImpl.class
+com\analise\credito\service\listener\PropostaPendenteListenerImpl.class
+com\analise\credito\constant\MensagensConstant.class
+com\analise\credito\service\listener\PropostaPendenteListener.class
+com\analise\credito\MsAnaliseDeCreditoApplication.class
+com\analise\credito\service\analiseCredito\AnaliseCreditoServiceImpl.class
+com\analise\credito\service\analiseCredito\AnaliseCreditoService.class
+com\analise\credito\service\strategy\OutrosEmprestimosEmAndamentoImpl.class
+com\analise\credito\service\rabbitmq\NotificacaoService.class
+com\analise\credito\service\strategy\CalculoPonto.class
+com\analise\credito\service\strategy\RendaMaiorQueValorSolicitadoImpl.class
+com\analise\credito\domain\Usuario.class
